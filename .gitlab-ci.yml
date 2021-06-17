@@ -6,9 +6,9 @@ services:
 variables:
   DOCKER_DRIVER: overlay
   SPRING_PROFILES_ACTIVE: test
-  USER_GITLAB: danilakacta
-  APP_NAME: mailverification
-  REPO: kkb_microservice/mailverification
+  USER_GITLAB: mastertony
+  APP_NAME: mailvalidation
+  REPO: CICDGroup/mailvalidation
   CI_DEBUG_TRACE: "false"
   LOCAL_REGISTRY: localhost:5000
   BUILD_IMAGE: gradle #maven:3-jdk-8
