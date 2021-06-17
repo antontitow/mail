@@ -11,6 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 @SpringBootApplication
 @ConfigurationPropertiesScan("ru.kkb.service.mail.verification.config")
 public class Application {
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
